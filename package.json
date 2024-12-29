@@ -1,0 +1,30 @@
+{
+  "name": "maintenance-page",
+  "version": "0.1.0",
+  "description": "This page can be deployed to any page during routine maintenance. This ensures consistent user communication during a period of server downtime.",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeJames/maintenance-page.git"
+  },
+  "keywords": [
+    "maintenance",
+    "static"
+  ],
+  "author": "MakeJames",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakeJames/maintenance-page/issues"
+  },
+  "homepage": "https://github.com/MakeJames/maintenance-page#readme",
+  "devDependencies": {
+    "html-validate": "^9.1.0",
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+      "start": "http-server ./src"
+  }
+}
