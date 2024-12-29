@@ -25,6 +25,7 @@
     "http-server": "^14.1.1"
   },
   "scripts": {
+      "lint": "html-validate ./src",
       "start": "http-server ./src"
   }
 }
