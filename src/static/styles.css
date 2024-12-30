@@ -6,7 +6,7 @@
  * ================= */
 
 :root {
-  --font-size-base: calc(16px + 0.5vw); /* Improve readability on large screens */
+  --font-size-base: 18px;
   --font-size-12: 1rem;
   --font-size-14: 1.15rem;
   --font-size-16: 1.35rem;
@@ -81,7 +81,10 @@ body {
   margin: 0 auto;
 
   /* Prevent scroll in two directions */
-  overflow: hidden scroll;
+  overflow: hidden;
+
+  /* Text Styling */
+  text-align: center;
   color: var(--text-colour);
 }
 
@@ -163,8 +166,4 @@ img {
 
 .banner {
   order: -1;
-}
-
-.center {
-  text-align: center;
 }
