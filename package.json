@@ -4,7 +4,8 @@
   "description": "This page can be deployed to any page during routine maintenance. This ensures consistent user communication during a period of server downtime.",
   "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "html-validate ./src && stylelint ./src/**/*.css",
+    "start": "http-server ./src"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,8 @@
   "homepage": "https://github.com/MakeJames/maintenance-page#readme",
   "devDependencies": {
     "html-validate": "^9.1.0",
-    "http-server": "^14.1.1"
-  },
-  "scripts": {
-      "lint": "html-validate ./src",
-      "start": "http-server ./src"
+    "http-server": "^14.1.1",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard-scss": "^14.0.0"
   }
 }
